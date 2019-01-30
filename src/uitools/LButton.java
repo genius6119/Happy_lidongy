@@ -7,7 +7,7 @@ import javax.swing.JButton;
 
 public class LButton extends JButton{
 
-	public LButton(String content,Font font,Color color) {//ÄÚÈİ£¬×ÖÌå£¬ÑÕÉ«
+	public LButton(String content,Font font,Color color) {
 		super(content);
 		this.setFont(font);
 		this.setForeground(color);

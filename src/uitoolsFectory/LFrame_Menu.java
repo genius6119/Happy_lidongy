@@ -12,11 +12,11 @@ import uitools.LLabel;
 import uitools.LButton;
 
 public class LFrame_Menu extends LFrame{
-	Vector<LButton> buttons;//°´Å¥
-	LLabel label;//Ö÷Ìâ
-	JLayeredPane layeredPane;//²ã¼¶¿Ø¼þ
-	ImageIcon imageIcon;//±³¾°Í¼Æ¬
-	LLabel label2;//±³¾°Í¼Æ¬ËùÔÚlabel
+	Vector<LButton> buttons;
+	LLabel label;
+	JLayeredPane layeredPane;
+	ImageIcon imageIcon;
+	LLabel label2;
 	
 	public LFrame_Menu(String title) {
 		super(title,Color.white,700,150,450,650);
@@ -25,12 +25,12 @@ public class LFrame_Menu extends LFrame{
 	}
 	
 	public void addLabel(LLabel lb) {
-		label = lb;//Ç³¿½±´
+		label = lb;
 	}
 	
 	public void addButton(LButton btn) {
 		if(buttons.size()==8)
-			System.out.println("LFrame_MenuÖÐbuttonÒÑÂú");
+			System.out.println("LFrame_Menuï¿½ï¿½buttonï¿½ï¿½ï¿½ï¿½");
 		else
 		    buttons.add(btn);
 	}

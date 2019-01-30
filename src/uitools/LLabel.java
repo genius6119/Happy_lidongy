@@ -8,7 +8,7 @@ import javax.swing.JLabel;
 
 public final class LLabel extends JLabel{
 
-	public LLabel(String content,Font font,Color color) {//ÄÚÈİ£¬×ÖÌå£¬ÑÕÉ«
+	public LLabel(String content,Font font,Color color) {
 		super(content);
 		this.setFont(font);
 		this.setForeground(color);
