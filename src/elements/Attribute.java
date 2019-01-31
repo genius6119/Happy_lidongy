@@ -1,6 +1,8 @@
 package elements;
 
-public class Attribute {
+import java.io.Serializable;
+
+public class Attribute implements Serializable {
     String name;
     Integer num;
     Attribute(String name,int num){

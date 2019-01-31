@@ -13,17 +13,17 @@ import uitoolsFectory.LFrame_Menu;
 public class Test {
 
 	public static void main(String[] args) {
-    LFrame_Menu frame = new LFrame_Menu("¿ªÊ¼ÓÎÏ·");
-    frame.addTheme("ÕæÎå¹úÎŞË«Ö®Ç±ÁúÈëÃÎ");
+    LFrame_Menu frame = new LFrame_Menu("å¼€å§‹æ¸¸æˆ");
+    frame.addTheme("çœŸäº”å›½æ— åŒä¹‹æ½œé¾™å…¥æ¢¦");
     frame.addBackground("src/resourse/timg.jpg");
-    frame.addOption("¿ªÊ¼ÓÎÏ·");
-    frame.addOption("ÔØÈë´æµµ");
-    frame.addOption("³É¾ÍÒ»ÀÀ");
-    frame.addOption("¿ªÊ¼ÓÎÏ·");
-    frame.addOption("¿ªÊ¼ÓÎÏ·");
-    frame.addOption("¿ªÊ¼ÓÎÏ·");
-    frame.addOption("¿ªÊ¼ÓÎÏ·");
-    frame.addOption("¿ªÊ¼ÓÎÏ·");
+    frame.addOption("è½½å…¥å­˜æ¡£");
+    frame.addOption("æˆå°±ä¸€è§ˆ");
+    frame.addOption("è½½å…¥å­˜æ¡£");
+    frame.addOption("è½½å…¥å­˜æ¡£");
+    frame.addOption("è½½å…¥å­˜æ¡£");
+    frame.addOption("è½½å…¥å­˜æ¡£");
+    frame.addOption("è½½å…¥å­˜æ¡£");
+    frame.addOption("è½½å…¥å­˜æ¡£");
     frame.display();
 	}
 }
