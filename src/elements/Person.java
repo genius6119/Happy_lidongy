@@ -1,5 +1,7 @@
 package elements;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 /**
@@ -7,6 +9,7 @@ import java.io.Serializable;
  * @Description:
  * @Date: Create in 12:58 2019/1/31
  */
+@Data
 public class Person implements Serializable {
     private int age;
     private String name;
@@ -21,27 +24,13 @@ public class Person implements Serializable {
         this.sex = sex;
     }
 
-    public int getAge() {
-        return age;
+    @Override
+    public String toString() {
+        return "Person{" +
+                "age=" + age +
+                ", name='" + name + '\'' +
+                ", sex='" + sex + '\'' +
+                '}';
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getSex() {
-        return sex;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setSex(String sex) {
-        this.sex = sex;
-    }
 }

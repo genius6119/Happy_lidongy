@@ -1,7 +1,9 @@
 package elements;
 
-import java.util.Vector;
+import lombok.Data;
 
+import java.util.Vector;
+@Data
 public class Skill {
     String name;
     String description;
